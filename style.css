@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Inline&family=Londrina+Outline&family=Luckiest+Guy&family=Orbitron:wght@500&family=Staatliches&display=swap');
+
+body {
+    background: linear-gradient(180deg, #feead2, #fff8ee);
+    font-family: Open Sans;
+    /* color: rgb(191, 53, 53); */
+  
+      width: 800px;
+      height: 600px;
+     
+  }
+  .newspan{
+      padding:4px 19px 4px 70px;
+      color: #feead2;
+      font-family: 'Staatliches', cursive;   
+      font-size: 15px;   
+  }
+  .text-span{
+    font-family: 'Staatliches', cursive;
+    font-size: 21px;   
+
+  }
+  .icons-span{
+      float: right;
+  }
+  .todolist{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #fcaf3b, #f25c2a);
+    box-shadow: 0 10px 28px #d8724a;
+    margin: 30px auto;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 18px;
+    top: 56%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -62%);
+    text-align: center ;
+
+  }
+  .screen {
+    background: #fff;
+    padding: 2px 2px 44px 2px;
+    height: 47px;
+    text-align: right;
+    font-size: 2px;
+    color: #4c455a;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 3px #d8724a;
+    /* margin: 20px;
+    border-radius: 10px; */
+  
+  }
+.checking{
+    padding: 9px;
+    /* float: inherit; */
+}
+.new-element{
+    color: whitesmoke;
+    padding: 5px 2px 5px 16px;
+}
+.dltbtn{
+    padding: 3px;
+    color: rgb(223, 4, 4);
+    filter: drop-shadow(0 10px 28px white);
+    
+    
+
+}
+.edtbtn{
+    padding: 3px;
+    color:rgb(74, 199, 58);
+}
+
